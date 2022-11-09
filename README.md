@@ -9,3 +9,5 @@ Complete and delete todos.
 ## Fix
 
 Email confirmation button does not work yet.
+
+Add password reset.

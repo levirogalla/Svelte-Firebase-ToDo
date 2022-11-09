@@ -54,7 +54,7 @@
     }
 </script>
 
-<!-- add password ressut latter -->
+<!-- add password reset later -->
 
 <div>
     <form

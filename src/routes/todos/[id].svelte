@@ -1,6 +1,5 @@
 <script context="module">
     // gets page id to find show details for todo
-    // may be uncessary code since everything had to be rewritten
     export async function load({ params }) {
         const id = params.id;
         const app = initializeApp(firebaseConfig);
