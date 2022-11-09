@@ -1,0 +1,24 @@
+{
+	"name": "sveltfirebase-todo",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"package": "svelte-kit package",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/kit": "next",
+		"autoprefixer": "^10.4.8",
+		"postcss": "^8.4.16",
+		"svelte": "^3.44.0",
+		"svelte-preprocess": "^4.10.7",
+		"tailwindcss": "^3.1.8",
+		"vite": "^3.0.0"
+	},
+	"type": "module",
+	"dependencies": {
+		"firebase": "^9.9.2"
+	}
+}

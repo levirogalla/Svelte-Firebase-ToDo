@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn-nav{
+        @apply px-4 py-1  hover:bg-blue-300 active:bg-slate-200 rounded-lg font-mono font-bold drop-shadow-md tracking-wider
+    }
+
+    .input-lg{
+        @apply w-9/12 h-10 shadow-md p-2
+    }
+
+}

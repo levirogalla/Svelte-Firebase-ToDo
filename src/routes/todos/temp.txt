@@ -1,0 +1,26 @@
+    async function getData(id) {
+        const docRef = doc(db, 'todo', `${id}`);
+        const docSnap = await getDoc(docRef);
+        return docSnap.data;
+    }
+
+    class Todo {
+    constructor (task, created, completed ) {
+        this.task = task;
+        this.created = created;
+        this.completed = completed;
+    }
+}
+    const todoDetail = {
+    toFirestore: (todo) => {
+        return {
+            task: todo.task,
+            created: todo.created,
+            completed: todo.completed
+            };
+    },
+    fromFirestore: (snapshot, options) => {
+        const data = snapshot.data(options);
+        return new Todo(data.task, data.created, data.completed);
+    }
+};
