@@ -6,6 +6,14 @@ Save todos and add details to them.
 
 Complete and delete todos.
 
+## How to use
+
+Must have node.
+
+Open project directory in terminal and run "npm run dev".
+
+Website will be on a localhost port.
+
 ## Fix
 
 Email confirmation button does not work yet.
